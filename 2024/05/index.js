@@ -45,10 +45,10 @@ function organizeShoes(shoes) {
   for (const { type, size } of shoes) {
     if (!stock[size]) stock[size] = { I: 0, R: 0 }
     stock[size][type]++
-    if (stock[size]['I'] > 0 && stock[size]['R'] > 0) {
+    if (stock[size].I > 0 && stock[size].R > 0) {
       result.push(size)
-      stock[size]['I']--
-      stock[size]['R']--
+      stock[size].I--
+      stock[size].R--
     }
   }
   return result;
