@@ -39,7 +39,9 @@ inBox([
 */
 
 function inBox(box) {
-  return box.slice(1, -1).some((row, index) => {
+  if (!/^[#]+$/.test(box[0]) || !/^[#]+$/.test(box[box.length - 1])) return false;
+
+  return box.some((row) => {
     const asteriskIndex = row.indexOf('*')
     return asteriskIndex > 0 && asteriskIndex < row.length - 1
   });
@@ -77,5 +79,13 @@ console.log(inBox([
 console.log(inBox([
   "#*#",
   "###",
+  "###"
+])); // false
+
+
+console.log(inBox([
+  "#*#",
+  "###",
+  "#*#",
   "###"
 ])); // false
