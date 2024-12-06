@@ -38,19 +38,12 @@ inBox([
 ]) // ➞ false
 */
 
-
 function inBox(box) {
-  const boxLength = box.length
-  for (let i = 0; i < boxLength; i++) {
-    const row = box[i]
-    const rowLength = row.length
-    const rowIndexOf = row.indexOf('*')
-    const tapas = (row.includes('*') && i > 0 && i < boxLength - 1)
-    if (tapas && rowIndexOf > 0 && rowIndexOf < rowLength - 1) return true
-  }
-  return false
+  return box.slice(1, -1).some((row, index) => {
+    const asteriskIndex = row.indexOf('*')
+    return asteriskIndex > 0 && asteriskIndex < row.length - 1
+  });
 }
-
 
 console.log(inBox([
   "###",
