@@ -28,12 +28,10 @@ function drawRace(indices, length) {
   let result = ''
 
   for (let i = 0; i < indices.length; i++) {
-    const final = ` /${i + 1}\n`
     let line = (new Array(length).fill(nieve).join(''))
     const index = indices[i] < 0 ? line.length + indices[i] : indices[i]
-    if (indices[i] !== 0) line = line.substring(0, index) + reno + line.substring(index + 1)
-    line = line.padStart(length + indices.length - i - 1, espacio) + final
-    result += line
+    indices[i] !== 0 && (line = line.substring(0, index) + reno + line.substring(index + 1))
+    result += line.padStart(length + indices.length - i - 1, espacio) + ` /${i + 1}\n`
   }
 
   return result.slice(0, -1)
