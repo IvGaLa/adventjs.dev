@@ -28,25 +28,23 @@ fixPackages('a(b(c))e')
 */
 
 function fixPackages(packages) {
-  const stack = []
+  const stack = [];
 
   for (const char of packages) {
     if (char === ')') {
-      const reversed = []
+      const reversed = [];
       while (stack[stack.length - 1] !== '(') {
-        reversed.push(stack.pop())
+        reversed.push(stack.pop());
       }
-      stack.pop()
-      stack.push(...reversed)
+      stack.pop();
+      stack.push(...reversed);
     } else {
-      stack.push(char)
+      stack.push(char);
     }
   }
 
-  return stack.join('')
+  return stack.join('');
 }
-
-
 
 console.log(fixPackages('a(cb)de'));
 // ➞ "abcde"

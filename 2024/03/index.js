@@ -53,14 +53,14 @@ organizeInventory(inventary2)
 */
 
 function organizeInventory(inventory) {
-  const toys = {}
+  const toys = {};
   for (const toy of inventory) {
-    const { name, category, quantity } = toy
-    if (!toys[category]) toys[category] = {}
-    if (!toys[category][name]) toys[category][name] = 0
-    toys[category][name] += quantity
+    const { name, category, quantity } = toy;
+    if (!toys[category]) toys[category] = {};
+    if (!toys[category][name]) toys[category][name] = 0;
+    toys[category][name] += quantity;
   }
-  return toys
+  return toys;
 }
 
 const inventary = [
@@ -68,16 +68,14 @@ const inventary = [
   { name: 'car', quantity: 3, category: 'toys' },
   { name: 'ball', quantity: 2, category: 'sports' },
   { name: 'car', quantity: 2, category: 'toys' },
-  { name: 'racket', quantity: 4, category: 'sports' }
-]
-
+  { name: 'racket', quantity: 4, category: 'sports' },
+];
 
 const inventary2 = [
   { name: 'book', quantity: 10, category: 'education' },
   { name: 'book', quantity: 5, category: 'education' },
-  { name: 'paint', quantity: 3, category: 'art' }
-]
-
+  { name: 'paint', quantity: 3, category: 'art' },
+];
 
 console.log(organizeInventory(inventary));
 console.log(organizeInventory(inventary2));

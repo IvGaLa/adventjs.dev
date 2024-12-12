@@ -22,12 +22,12 @@ decodeFilename('987654321_elf-roster.csv.tempfile')
 // ➞ "elf-roster.csv"
 */
 
-
 function decodeFilename(filename) {
-  return filename.substring(filename.indexOf('_') + 1, filename.lastIndexOf('.'))
+  return filename.substring(
+    filename.indexOf('_') + 1,
+    filename.lastIndexOf('.'),
+  );
 }
-
-
 
 console.log(decodeFilename('2023122512345678_sleighDesign.png.grinchwa'));
 // ➞ "sleighDesign.png"

@@ -48,43 +48,43 @@ console.log(moveTrain(board, 'R'))
 
 function moveTrain(board, mov) {
   const movimientos = {
-    'U': { x: 0, y: -1 },
-    'D': { x: 0, y: 1 },
-    'L': { x: -1, y: 0 },
-    'R': { x: 1, y: 0 }
+    U: { x: 0, y: -1 },
+    D: { x: 0, y: 1 },
+    L: { x: -1, y: 0 },
+    R: { x: 1, y: 0 },
   };
   const results = {
     '·': 'none',
     '*': 'eat',
-    'o': 'crash'
+    o: 'crash',
   };
 
-  const y = board.findIndex(row => row.includes('@'));
+  const y = board.findIndex((row) => row.includes('@'));
   const x = board[y].indexOf('@');
 
   const newY = y + movimientos[mov].y;
   const newX = x + movimientos[mov].x;
 
-  if (newY < 0 || newY >= board.length || newX < 0 || newX >= board[0].length) return 'crash';
+  if (newY < 0 || newY >= board.length || newX < 0 || newX >= board[0].length)
+    return 'crash';
 
   return results[board[newY][newX]] || 'none';
 }
 
+const board = ['·····', '*····', '@····', 'o····', 'o····'];
 
-const board = ['·····', '*····', '@····', 'o····', 'o····']
-
-console.log(moveTrain(board, 'U'))
+console.log(moveTrain(board, 'U'));
 // ➞ 'eat'
 // Porque el tren se mueve hacia arriba y encuentra una fruta mágica
 
-console.log(moveTrain(board, 'D'))
+console.log(moveTrain(board, 'D'));
 // ➞ 'crash'
 // El tren se mueve hacia abajo y la cabeza se choca consigo mismo
 
-console.log(moveTrain(board, 'L'))
+console.log(moveTrain(board, 'L'));
 // ➞ 'crash'
 // El tren se mueve a la izquierda y se choca contra la pared
 
-console.log(moveTrain(board, 'R'))
+console.log(moveTrain(board, 'R'));
 // ➞ 'none'
 // El tren se mueve hacia derecha y hay un espacio vacío en la derecha

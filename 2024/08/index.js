@@ -20,23 +20,23 @@ La vista es isométrica, por lo que los carriles inferiores están desplazados h
 Ejemplos:
 */
 
-
 function drawRace(indices, length) {
-  const nieve = '~'
-  const reno = 'r'
-  const espacio = ' '
-  let result = ''
+  const nieve = '~';
+  const reno = 'r';
+  const espacio = ' ';
+  let result = '';
 
   for (let i = 0; i < indices.length; i++) {
-    let line = (new Array(length).fill(nieve).join(''))
-    const index = indices[i] < 0 ? line.length + indices[i] : indices[i]
-    indices[i] !== 0 && (line = line.substring(0, index) + reno + line.substring(index + 1))
-    result += line.padStart(length + indices.length - i - 1, espacio) + ` /${i + 1}\n`
+    let line = new Array(length).fill(nieve).join('');
+    const index = indices[i] < 0 ? line.length + indices[i] : indices[i];
+    indices[i] !== 0 &&
+      (line = line.substring(0, index) + reno + line.substring(index + 1));
+    result +=
+      line.padStart(length + indices.length - i - 1, espacio) + ` /${i + 1}\n`;
   }
 
-  return result.slice(0, -1)
+  return result.slice(0, -1);
 }
-
 
 console.log(drawRace([0, 5, -3], 10));
 /*

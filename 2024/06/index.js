@@ -39,53 +39,23 @@ inBox([
 */
 
 function inBox(box) {
-  if (!/^[#]+$/.test(box[0]) || !/^[#]+$/.test(box[box.length - 1])) return false;
+  if (!/^[#]+$/.test(box[0]) || !/^[#]+$/.test(box[box.length - 1]))
+    return false;
 
   return box.some((row) => {
-    const asteriskIndex = row.indexOf('*')
-    return asteriskIndex > 0 && asteriskIndex < row.length - 1
+    const asteriskIndex = row.indexOf('*');
+    return asteriskIndex > 0 && asteriskIndex < row.length - 1;
   });
 }
 
-console.log(inBox([
-  "###",
-  "#*#",
-  "###"
-])); // ➞ true
+console.log(inBox(['###', '#*#', '###'])); // ➞ true
 
-console.log(inBox([
-  "####",
-  "#* #",
-  "#  #",
-  "####"
-])); // ➞ true
+console.log(inBox(['####', '#* #', '#  #', '####'])); // ➞ true
 
-console.log(inBox([
-  "*####",
-  "#   #",
-  "#  #*",
-  "####"
-])); // ➞ false
+console.log(inBox(['*####', '#   #', '#  #*', '####'])); // ➞ false
 
-console.log(inBox([
-  "#####",
-  "#   #",
-  "#   #",
-  "#   #",
-  "#####"
-])); // ➞ false
+console.log(inBox(['#####', '#   #', '#   #', '#   #', '#####'])); // ➞ false
 
+console.log(inBox(['#*#', '###', '###'])); // false
 
-console.log(inBox([
-  "#*#",
-  "###",
-  "###"
-])); // false
-
-
-console.log(inBox([
-  "#*#",
-  "###",
-  "#*#",
-  "###"
-])); // false
+console.log(inBox(['#*#', '###', '#*#', '###'])); // false

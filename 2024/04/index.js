@@ -13,26 +13,24 @@ Asegúrate de utilizar saltos de línea \n al final de cada línea, excepto en l
 Ejemplos:
 */
 
-
 function createXmasTree(height, ornament) {
-  let tree = "";
+  let tree = '';
 
   for (let i = 0; i < height; i++) {
-    const spaces = "_".repeat(height - i - 1);
+    const spaces = '_'.repeat(height - i - 1);
     const decoration = ornament.repeat(2 * i + 1);
-    tree += spaces + decoration + spaces + "\n";
+    tree += spaces + decoration + spaces + '\n';
   }
 
-  const trunkSpaces = "_".repeat(height - 1);
-  tree += trunkSpaces + "#" + trunkSpaces + "\n";
-  tree += trunkSpaces + "#" + trunkSpaces;
+  const trunkSpaces = '_'.repeat(height - 1);
+  tree += trunkSpaces + '#' + trunkSpaces + '\n';
+  tree += trunkSpaces + '#' + trunkSpaces;
 
   return tree;
 }
 
-
-const tree = createXmasTree(5, '*')
-console.log(tree)
+const tree = createXmasTree(5, '*');
+console.log(tree);
 /*
 ____*____
 ___***___
@@ -43,9 +41,8 @@ ____#____
 ____#____
 */
 
-
-const tree2 = createXmasTree(3, '+')
-console.log(tree2)
+const tree2 = createXmasTree(3, '+');
+console.log(tree2);
 /*
 __+__
 _+++_
@@ -54,8 +51,8 @@ __#__
 __#__
 */
 
-const tree3 = createXmasTree(6, '@')
-console.log(tree3)
+const tree3 = createXmasTree(6, '@');
+console.log(tree3);
 /*
 _____@_____
 ____@@@____
