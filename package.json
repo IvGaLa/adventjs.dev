@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "template": "node template.js",
     "2024:01": "nodemon 2024/01/index.js",
     "2024:02": "nodemon 2024/02/index.js",
     "2024:03": "nodemon 2024/03/index.js",
@@ -14,7 +15,8 @@
     "2024:08": "nodemon 2024/08/index.js",
     "2024:09": "nodemon 2024/09/index.js",
     "2024:10": "nodemon 2024/10/index.js",
-    "2024:11": "nodemon 2024/11/index.js"
+    "2024:11": "nodemon 2024/11/index.js",
+    "2024:12": "nodemon 2024/12/index.js"
   },
   "keywords": [],
   "author": "IvGaLa",
