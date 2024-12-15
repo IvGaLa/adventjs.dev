@@ -1,41 +1,70 @@
+/*
+Al Polo Norte ha llegado ChatGPT y el elfo Sam Elfman está trabajando en una aplicación de administración de regalos y niños.
+
+Para mejorar la presentación, quiere crear una función drawTable que reciba un array de objetos y lo convierta en una tabla de texto.
+
+La tabla dibujada debe representar los datos del objeto de la siguiente manera:
+
+Tiene una cabecera con el nombre de la columna.
+El nombre de la columna pone la primera letra en mayúscula.
+Cada fila debe contener los valores de los objetos en el orden correspondiente.
+Cada valor debe estar alineado a la izquierda.
+Los campos dejan siempre un espacio a la izquierda.
+Los campos dejan a la derecha el espacio necesario para alinear la caja.
+Mira el ejemplo para ver cómo debes dibujar la tabla:
+
+drawTable([
+  { name: 'Alice', city: 'London' },
+  { name: 'Bob', city: 'Paris' },
+  { name: 'Charlie', city: 'New York' }
+])
+// +---------+-----------+
+// | Name    | City      |
+// +---------+-----------+
+// | Alice   | London    |
+// | Bob     | Paris     |
+// | Charlie | New York  |
+// +---------+-----------+
+
+drawTable([
+  { gift: 'Doll', quantity: 10 },
+  { gift: 'Book', quantity: 5 },
+  { gift: 'Music CD', quantity: 1 }
+])
+// +----------+----------+
+// | Gift     | Quantity |
+// +----------+----------+
+// | Doll     | 10       |
+// | Book     | 5        |
+// | Music CD | 1        |
+// +----------+----------+
+
+*/
+
 function drawTable(data) {
-  const headers = [];
-  const columnWidths = [];
+  const titles = Object.keys(data[0]);
 
-  for (const header of Object.keys(data[0])) {
-    headers.push(header.charAt(0).toUpperCase() + header.slice(1));
-    columnWidths.push(
-      Math.max(
-        header.length,
-        ...data.map((item) => item[header].toString().length),
-      ),
-    );
-  }
+  const columnWidths = titles.map((title) =>
+    Math.max(title.length, ...data.map((row) => `${row[title]}`.length)),
+  );
 
-  const drawRow = (row, widths, isHeader = false) =>
-    '| ' +
-    headers
-      .map((header, i) => {
-        const value = isHeader
-          ? header
-          : row[Object.keys(data[0])[i]].toString();
-        return value.padEnd(widths[i]);
-      })
-      .join(' | ') +
-    ' |';
+  const line = `+-${columnWidths.map((w) => '-'.repeat(w)).join('-+-')}-+`;
 
-  const line =
-    '+-' + columnWidths.map((width) => '-'.repeat(width) + '-+').join('-');
+  const titleRow = `| ${titles
+    .map((title, index) => {
+      const headerFormatted = title.charAt(0).toUpperCase() + title.slice(1);
+      return headerFormatted.padEnd(columnWidths[index]);
+    })
+    .join(' | ')} |`;
 
-  const result = [
-    line,
-    drawRow(null, columnWidths, true),
-    line,
-    ...data.map((row) => drawRow(row, columnWidths)),
-    line,
-  ].join('\n');
+  const lines = data.map(
+    (row) =>
+      `| ${titles
+        .map((key, i) => `${row[key]}`.padEnd(columnWidths[i]))
+        .join(' | ')} |`,
+  );
 
-  return result;
+  return [line, titleRow, line, ...lines, line].join('\n');
 }
 
 console.log(
