@@ -15,7 +15,9 @@ const PACKAGES_JSON = './package.json';
 const _year = Number(year); // Used for validations
 const _day = Number(day); // Used for validations
 
-const showError = (errorNumber) => {
+const showError = (errorNumber, err) => {
+  console.log(err);
+
   const errors = [];
   errors[0] =
     'Please, use: npm run YEAR DAY\nWhere: YEAR is year in full number (YYYY) and DAY is the number of the day xD.';
@@ -58,10 +60,10 @@ const createYearDirectory = (dirPath) => {
 const createFile = (filename, input = '') => {
   existsSync(filename)
     ? appendFile(filename, input, (err) => {
-        showError(3);
+        if (err) showError(3);
       })
     : writeFile(filename, input, (err) => {
-        showError(3);
+        if (err) showError(3);
       });
 };
 
