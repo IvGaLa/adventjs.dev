@@ -38,7 +38,8 @@
     "2021:12": "nodemon 2021/12/index.js",
     "2021:13": "nodemon 2021/13/index.js",
     "2024:18": "nodemon 2024/18/index.js",
-    "2021:14": "nodemon 2021/14/index.js"
+    "2021:14": "nodemon 2021/14/index.js",
+    "2021:15": "nodemon 2021/15/index.js"
   },
   "keywords": [],
   "author": "IvGaLa",
