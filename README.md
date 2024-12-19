@@ -1,4 +1,4 @@
-<img src="img/cabecera_2024.webp">
+<img src="2024/img/cabecera.webp">
 
 # Adventjs
 
@@ -6,13 +6,14 @@ Realizo los retos de **[Adventjs](https://adventjs.dev/)** (Juego con retos de p
 
 ## Progreso
 
-- 2024: 18 de 25
+- [2024](2024/README.md): 19 de 25
 - 2023: 0 de 25
 - 2022: 0 de 24
 - [2021](2021/README.md): 21 de 25
 
 ## Changelog
 
+- **19 Dic 2024** - [Reto 19 - 2024](2024/19/index.js) completado.
 - **18 Dic 2024** - [Reto 18 - 2024](2024/18/index.js) completado. / Retos 14 a 21 - [2021](2021/README.md) completados.
 - **17 Dic 2024** - [Reto 17 - 2024](2024/17/index.js) completado. / Retos 8 a 13 - [2021](2021/README.md) completados.
 - **16 Dic 2024** - [Reto 16 - 2024](2024/16/index.js) completado. / Retos 1 a 7 - [2021](2021/README.md) completados.
