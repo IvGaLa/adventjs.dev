@@ -33,24 +33,24 @@ Realizo los retos de **[Adventjs](https://adventjs.dev/)** (Juego con retos de p
 
 ## Soluciones
 
-| #   | Desafío                                                                             | Dificultad | Estado | Estrellas                                                                                                                                         |
-| --- | ----------------------------------------------------------------------------------- | ---------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | <img src="img/01.webp"> [🎁 ¡Primer regalo repetido!](01/index.js)                  | Fácil      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 02  | <img src="img/02.webp"> [🖼️ Enmarcando nombres](02/index.js)                        | Fácil      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 03  | <img src="img/03.webp"> [🏗️ Organizando el inventario](03/index.js)                 | Fácil      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 04  | <img src="img/04.webp"> [🎄 Decorando el árbol de Navidad](04/index.js)             | Medio      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 05  | <img src="img/05.webp"> [👞 Emparejando botas](05/index.js)                         | Fácil      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 06  | <img src="img/06.webp"> [📦 ¿Regalo dentro de la caja?](06/index.js)                | Medio      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 07  | <img src="img/07.webp"> [👹 El ataque del Grinch](07/index.js)                      | Medio      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 08  | <img src="img/08.webp"> [🦌 La carrera de renos](08/index.js)                       | Fácil      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 09  | <img src="img/09.webp"> [🚂 El tren mágico](09/index.js)                            | Medio      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 10  | <img src="img/10.webp"> [👩‍💻 El ensamblador élfico](10/index.js)                     | Medio      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 11  | <img src="img/11.webp"> [🏴‍☠️ Nombres de archivos codificados](11/index.js)           | Fácil      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 12  | <img src="img/12.webp"> [💵 ¿Cuánto cuesta el árbol?](12/index.js)                  | Fácil      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 13  | <img src="img/13.webp"> [🤖 ¿El robot está de vuelta?](13/index.js)                 | Difícil    | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 14  | <img src="img/14.webp"> [🦌 Acomodando los renos](14/index.js)                      | Fácil      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 15  | <img src="img/15.webp"> [✏️ Dibujando tablas](15/index.js)                          | Fácil      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 16  | <img src="img/16.webp"> [❄️ Limpiando la nieve del camino](16/index.js)             | Fácil      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 17  | <img src="img/17.webp"> [💣 Busca las bombas del Grinch](17/index.js)               | Medio      | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 18  | <img src="img/18.webp"> [📇 La agenda mágica de Santa](18/index.js)                 | Difícil    | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
-| 19  | <img src="img/19.webp"> [📦 Apila cajas mágicas para repartir regalos](19/index.js) | Difícil    | ✅     | <img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"><img src="img/estrella.webp"> |
+| #   | Desafío                                                                             | Dificultad | Estado | Estrellas                      |
+| --- | ----------------------------------------------------------------------------------- | ---------- | ------ | ------------------------------ |
+| 01  | <img src="img/01.webp"> [🎁 ¡Primer regalo repetido!](01/index.js)                  | Fácil      | ✅     | :star::star::star::star::star: |
+| 02  | <img src="img/02.webp"> [🖼️ Enmarcando nombres](02/index.js)                        | Fácil      | ✅     | :star::star::star::star::star: |
+| 03  | <img src="img/03.webp"> [🏗️ Organizando el inventario](03/index.js)                 | Fácil      | ✅     | :star::star::star::star::star: |
+| 04  | <img src="img/04.webp"> [🎄 Decorando el árbol de Navidad](04/index.js)             | Medio      | ✅     | :star::star::star::star::star: |
+| 05  | <img src="img/05.webp"> [👞 Emparejando botas](05/index.js)                         | Fácil      | ✅     | :star::star::star::star::star: |
+| 06  | <img src="img/06.webp"> [📦 ¿Regalo dentro de la caja?](06/index.js)                | Medio      | ✅     | :star::star::star::star::star: |
+| 07  | <img src="img/07.webp"> [👹 El ataque del Grinch](07/index.js)                      | Medio      | ✅     | :star::star::star::star::star: |
+| 08  | <img src="img/08.webp"> [🦌 La carrera de renos](08/index.js)                       | Fácil      | ✅     | :star::star::star::star::star: |
+| 09  | <img src="img/09.webp"> [🚂 El tren mágico](09/index.js)                            | Medio      | ✅     | :star::star::star::star::star: |
+| 10  | <img src="img/10.webp"> [👩‍💻 El ensamblador élfico](10/index.js)                     | Medio      | ✅     | :star::star::star::star::star: |
+| 11  | <img src="img/11.webp"> [🏴‍☠️ Nombres de archivos codificados](11/index.js)           | Fácil      | ✅     | :star::star::star::star::star: |
+| 12  | <img src="img/12.webp"> [💵 ¿Cuánto cuesta el árbol?](12/index.js)                  | Fácil      | ✅     | :star::star::star::star::star: |
+| 13  | <img src="img/13.webp"> [🤖 ¿El robot está de vuelta?](13/index.js)                 | Difícil    | ✅     | :star::star::star::star::star: |
+| 14  | <img src="img/14.webp"> [🦌 Acomodando los renos](14/index.js)                      | Fácil      | ✅     | :star::star::star::star::star: |
+| 15  | <img src="img/15.webp"> [✏️ Dibujando tablas](15/index.js)                          | Fácil      | ✅     | :star::star::star::star::star: |
+| 16  | <img src="img/16.webp"> [❄️ Limpiando la nieve del camino](16/index.js)             | Fácil      | ✅     | :star::star::star::star::star: |
+| 17  | <img src="img/17.webp"> [💣 Busca las bombas del Grinch](17/index.js)               | Medio      | ✅     | :star::star::star::star::star: |
+| 18  | <img src="img/18.webp"> [📇 La agenda mágica de Santa](18/index.js)                 | Difícil    | ✅     | :star::star::star::star::star: |
+| 19  | <img src="img/19.webp"> [📦 Apila cajas mágicas para repartir regalos](19/index.js) | Difícil    | ✅     | :star::star::star::star::star: |
