@@ -6,7 +6,7 @@ Realizo los retos de **[Adventjs](https://2021.adventjs.dev/)** (Juego con retos
 
 ## Progreso
 
-- Retos completados: 4 de 24
+- Retos completados: 5 de 24
 
 ## Changelog
 
@@ -18,7 +18,7 @@ Realizo los retos de **[Adventjs](https://2021.adventjs.dev/)** (Juego con retos
 | 02  | <img src="img/02.webp"> [Nadie quiere hacer horas extra](02/index.js)                    | Fácil      | ✅     |
 | 03  | <img src="img/03.webp"> [¿Cuántas cajas de regalos puede llevar Papá Noel?](03/index.js) | Fácil      | ✅     |
 | 04  | <img src="img/04.webp"> [Una caja dentro de otra caja y otra...](04/index.js)            | Medio      | ✅     |
-| 05  | <img src="img/05.webp"> [Optimizando viajes de Santa]                                    | Difícil    | ❌     |
+| 05  | <img src="img/05.webp"> [Optimizando viajes de Santa](05/index.js)                       | Difícil    | ✅     |
 | 06  | <img src="img/06.webp"> [Creando adornos navideños]                                      | Medio      | ❌     |
 | 07  | <img src="img/07.webp"> [Haciendo inventario de regalos]                                 | Fácil      | ❌     |
 | 08  | <img src="img/08.webp"> [¡Necesitamos un mecánico!]                                      | Medio      | ❌     |
