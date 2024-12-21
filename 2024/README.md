@@ -6,10 +6,11 @@ Realizo los retos de **[Adventjs](https://adventjs.dev/)** (Juego con retos de p
 
 ## Progreso
 
-- Retos completados: 20 de 25
+- Retos completados: 21 de 25
 
 ## Changelog
 
+- **21 Dic 2024** - [Reto 21 - 2024](2024/21/index.js) completado.
 - **20 Dic 2024** - [Reto 20 - 2024](2024/20/index.js) completado.
 - **19 Dic 2024** - [Reto 19 - 2024](2024/19/index.js) completado.
 - **18 Dic 2024** - [Reto 18 - 2024](2024/18/index.js) completado.
@@ -56,3 +57,4 @@ Realizo los retos de **[Adventjs](https://adventjs.dev/)** (Juego con retos de p
 | 18  | <img src="img/18.webp"> [📇 La agenda mágica de Santa](18/index.js)                    | Difícil    | ✅     | :star::star::star::star::star: |
 | 19  | <img src="img/19.webp"> [📦 Apila cajas mágicas para repartir regalos](19/index.js)    | Difícil    | ✅     | :star::star::star::star::star: |
 | 20  | <img src="img/20.webp"> [🎁 Encuentra los regalos faltantes y duplicados](20/index.js) | Fácil      | ✅     | :star::star::star::star::star: |
+| 21  | <img src="img/21.webp"> [🎄 Calcula la altura del árbol de Navidad](21/index.js)       | Fácil      | ✅     | :star::star::star::star::star: |
