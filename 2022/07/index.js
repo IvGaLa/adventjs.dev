@@ -30,18 +30,9 @@ Si hay más de un regalo que reponer, la función debe devolver un Array con tod
 */
 
 function getGiftsToRefill(a1, a2, a3) {
-  const allGifts = new Set([...a1, ...a2, ...a3]);
-  const buy = [];
-
-  allGifts.forEach((gift) => {
-    const isInA1 = a1.includes(gift);
-    const isInA2 = a2.includes(gift);
-    const isInA3 = a3.includes(gift);
-
-    if (isInA1 + isInA2 + isInA3 === 1) buy.push(gift);
-  });
-
-  return buy;
+  return [...new Set([...a1, ...a2, ...a3])].filter(
+    (gift) => a1.includes(gift) + a2.includes(gift) + a3.includes(gift) === 1,
+  );
 }
 
 const a1 = ['bici', 'coche', 'bici', 'bici'];
