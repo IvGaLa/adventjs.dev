@@ -7,9 +7,11 @@ Realizo los retos de **[Adventjs](https://adventjs.dev/)** (Juego con retos de p
 ## Progreso
 
 - Retos completados: 25 de 25
+- Reto secreto: 1 de ?
 
 ## Changelog
 
+- **25 Dic 2024** - [Reto 26 - 2024](2024/26/index.js) completado.
 - **25 Dic 2024** - [Reto 25 - 2024](2024/25/index.js) completado.
 - **24 Dic 2024** - [Reto 24 - 2024](2024/24/index.js) completado.
 - **23 Dic 2024** - [Reto 23 - 2024](2024/23/index.js) completado.
@@ -66,3 +68,4 @@ Realizo los retos de **[Adventjs](https://adventjs.dev/)** (Juego con retos de p
 | 23  | <img src="img/23.webp"> [🔢 Encuentra los números perdidos](23/index.js)               | Fácil      | ✅     | :star::star::star::star::star: |
 | 24  | <img src="img/24.webp"> [🪞 Verifica si los árboles son espejos mágicos](24/index.js)  | Medio      | ✅     | :star::star::star::star::star: |
 | 25  | <img src="img/25.webp"> [🪞 Ejecuta el lenguaje mágico](25/index.js)                   | Medio      | ✅     | :star:                         |
+| 26  | <img src="img/26.webp"> [🎯 Calcula el porcentaje completado](26/index.js)             | Fácil      | ✅     | :star::star::star::star::star: |
