@@ -13,6 +13,7 @@ Realizo los retos de **[Adventjs](https://adventjs.dev/)** (Juego con retos de p
 
 ## Changelog
 
+- **25 Dic 2024** - [Reto 26 - 2024](2024/26/index.js) completado.
 - **25 Dic 2024** - [Reto 25 - 2024](2024/25/index.js) completado.
 - **24 Dic 2024** - [Reto 24 - 2024](2024/24/index.js) completado.
 - **23 Dic 2024** - [Reto 23 - 2024](2024/23/index.js) completado.
