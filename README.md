@@ -6,13 +6,14 @@ Realizo los retos de **[Adventjs](https://adventjs.dev/)** (Juego con retos de p
 
 ## Progreso
 
-- [2024](2024/README.md): 24 de 25
+- ✅ [2024](2024/README.md)
 - 2023: 0 de 25
 - [2022](2022/README.md): 7 de 24
 - ✅ [2021](2021/README.md)
 
 ## Changelog
 
+- **25 Dic 2024** - [Reto 25 - 2024](2024/25/index.js) completado.
 - **24 Dic 2024** - [Reto 24 - 2024](2024/24/index.js) completado.
 - **23 Dic 2024** - [Reto 23 - 2024](2024/23/index.js) completado.
 - **22 Dic 2024** - [Reto 22 - 2024](2024/22/index.js) completado.
