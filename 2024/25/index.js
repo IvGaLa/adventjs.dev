@@ -26,40 +26,29 @@ Nota: Un condicional puede tener un bucle dentro y también un bucle puede tener
 */
 
 function execute(code) {
+  const instructions = code.split('');
   let count = 0;
-  let index = 0;
-  const length = code.length;
 
-  const findMatching = (open, close, step) => {
-    let depth = 1;
-    while (depth > 0 && index >= 0 && index < length) {
-      index += step;
-      if (code[index] === open) depth++;
-      else if (code[index] === close) depth--;
+  for (let i = 0; i < instructions.length; i++) {
+    switch (instructions[i]) {
+      case '+':
+        count++;
+        break;
+
+      case '-':
+        count--;
+        break;
+
+      case '[':
+        i = instructions.indexOf(']', i) - 1;
+        count = 0;
+        break;
+
+      case '{':
+        if (count === 0) i = instructions.indexOf('}', i) - 1;
+        break;
     }
-  };
-
-  const operations = {
-    '+': () => count++,
-    '-': () => count--,
-    '[': () => {
-      if (count === 0) findMatching('[', ']', 1);
-    },
-    ']': () => {
-      if (count !== 0) findMatching(']', '[', -1);
-    },
-    '{': () => {
-      if (count === 0) findMatching('{', '}', 1);
-    },
-  };
-
-  while (index < length) {
-    const instruction = code[index];
-    const operation = operations[instruction];
-    if (operation) operation();
-    index++;
   }
-
   return count;
 }
 
