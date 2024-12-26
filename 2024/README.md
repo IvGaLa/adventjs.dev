@@ -67,5 +67,5 @@ Realizo los retos de **[Adventjs](https://adventjs.dev/)** (Juego con retos de p
 | 22  | <img src="img/22.webp"> [🎁 Genera combinaciones de regalos](22/index.js)              | Medio      | ✅     | :star::star::star::star::star: |
 | 23  | <img src="img/23.webp"> [🔢 Encuentra los números perdidos](23/index.js)               | Fácil      | ✅     | :star::star::star::star::star: |
 | 24  | <img src="img/24.webp"> [🪞 Verifica si los árboles son espejos mágicos](24/index.js)  | Medio      | ✅     | :star::star::star::star::star: |
-| 25  | <img src="img/25.webp"> [🪞 Ejecuta el lenguaje mágico](25/index.js)                   | Medio      | ✅     | :star:                         |
+| 25  | <img src="img/25.webp"> [🪞 Ejecuta el lenguaje mágico](25/index.js)                   | Medio      | ✅     | :star::star::star::star::star: |
 | 26  | <img src="img/26.webp"> [🎯 Calcula el porcentaje completado](26/index.js)             | Fácil      | ✅     | :star::star::star::star::star: |
