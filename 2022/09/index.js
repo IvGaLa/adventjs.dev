@@ -39,18 +39,16 @@ Si todos los leds están encendidos, el tiempo es 0.
 */
 
 function countTime(leds) {
-  if (leds.every((el) => el === 1)) return 0;
-
   let seconds = 0;
   const length = leds.length;
   const newLeds = [...leds];
 
-  while (true) {
+  while (!leds.every((el) => el === 1)) {
     seconds += 7;
     for (let i = 0; i < length; i++)
       if (leds[i] === 0 && leds[(i - 1 + length) % length] === 1)
         newLeds[i] = 1;
-    if (newLeds.every((el) => el === 1)) break;
+
     leds = [...newLeds];
   }
 
